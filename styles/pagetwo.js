@@ -1,0 +1,121 @@
+import { StyleSheet } from 'react-native';
+
+const Styles = StyleSheet.create({
+    screen: {
+        flex: 1,
+        backgroundColor: 'orange',
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+    },
+    title: {
+        flex: 1,
+        backgroundColor: 'yellow',
+        width: '100%',
+        justifyContent: 'flex-start',
+        borderTopWidth: 5,  
+        borderBottomWidth: 5,
+    },
+    back: {
+        width: '100%',
+        marginTop: 10,
+        fontSize: 32,
+        textShadowColor: 'white',
+        textShadowRadius: 8,
+    },
+    pass: {
+        flex: 10,
+        flexDirection: 'row',
+        width: '100%',
+        height: '100%',
+    },
+    banner: {
+        justifyContent: 'flex-end',
+        flex: 1.2,
+        width: '30%',
+    },
+    hallpass: {
+        width: 400,
+        height: 90,
+        transform: [
+            { rotate: '270deg'},
+            { translateX: 200},
+            { translateY: -150}
+        ],
+        fontSize: 64,
+        textShadowColor: 'white',
+        textShadowRadius: 8,
+    },
+    content: {
+        flex: 4,
+        width: '70%',
+    },
+    brand: {
+        width: '90%',
+        fontSize: 60,
+        textAlign: 'center',
+        textShadowColor: 'white',
+        textShadowRadius: 8,
+    },
+    date: {
+        marginTop: 20,
+        width: '90%',
+        fontSize: 32,
+        textAlign: 'center',
+        textShadowColor: 'white',
+        textShadowRadius: 8,
+    },
+    storyone: {
+        marginTop: 40,
+        textAlign: 'center',
+        width: '90%',
+        fontSize: 32,
+        textShadowColor: 'lime',
+        textShadowRadius: 8,
+    },
+    storytwo: {
+        marginTop: 20,
+        textAlign: 'center',
+        width: '90%',
+        fontSize: 32,
+        textShadowColor: 'lime',
+        textShadowRadius: 8,
+    },
+    storythree: {
+        marginTop: 20,
+        textAlign: 'center',
+        width: '90%',
+        fontSize: 32,
+        textShadowColor: 'lime',
+        textShadowRadius: 8,
+    },
+    storyfour: {
+        marginTop: 20,
+        textAlign: 'center',
+        width: '90%',
+        fontSize: 32,
+        textShadowColor: 'lime',
+        textShadowRadius: 8,
+    },
+    storyfive: {
+        marginTop: 20,
+        textAlign: 'center',
+        width: '80%',
+        fontSize: 32,
+        textShadowColor: 'lime',
+        textShadowRadius: 8,
+    },
+    signature: {
+        flex: 4,
+        width: '95%',
+        marginTop: 30,
+        marginBottom: 30,
+        borderWidth: 4,
+    },
+    sign: {
+        flex: 4,
+        width: '95%',
+        margin: 5,
+        fontSize: 24,
+    },
+});
+export default Styles;
